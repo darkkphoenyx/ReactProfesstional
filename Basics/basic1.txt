@@ -1,0 +1,9 @@
+HTML and CSS basics
+
+react is a library
+
+inline --> highest priority
+internal --> moderate
+external ---> lowest priority
+
+MediaQuery handles the Responsiveness of website
