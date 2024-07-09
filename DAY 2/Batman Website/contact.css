@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: rgb(214, 214, 3);
+}
+
+.header {
+  margin: 5px 5px 0px 5px;
+  border-radius: 18px;
+  height: 60px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .logo {
+  padding-left: 20px;
+}
+
+.header .logo img {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+.header .nav {
+  padding-right: 20px;
+}
+
+.header .nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.header .nav ul {
+  list-style: none;
+}
+
+.header .nav ul li {
+  padding: 4px;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  color: yellow;
+}
+
+.header .nav ul li a:hover {
+  color: rgb(255, 153, 0);
+  transition: all 0.15s ease;
+  transform-origin: center;
+}
+
+.contact-msg {
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 115, 0, 0.336);
+  backdrop-filter: blur(25px);
+}
+
+.contact-msg .message1 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contact-msg .message1 p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.452);
+  font-weight: bold;
+}
+.contact-msg .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+h2{
+  color: rgba(0, 0, 0, 0.452);
+}
+.contact-msg .border{
+  z-index: 1;
+  width: 5px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 150px;
+  background-color: black;
+}
