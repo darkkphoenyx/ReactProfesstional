@@ -1,0 +1,22 @@
+react is SPA--> single page application--> which means it does not reload the page instead reloads/rendered only the components
+node ---> run time environment for JavaScript
+npm--> node package manager
+yam--> is also a package manager
+ 
+spa--> single page application--> made using react and others
+
+we will be using Vite for now  to use react
+command: npm create vite@latest <projet_name>
+for raw React: npx create-react-app <projet_Name>
+
+vite is a hmr-->hot module replacement---> does not reload the whole page
+
+<> </> --> is a fragment
+or <fragment> </fragment> --> is also a fragment  --> kinda similar to open div and close div
+
+states in react
+--> information is temporarily stored
+
+props--> properties, we can pass    -parameter
+                                    -function
+                                    we can use props to pass variable back and forth parent and child 

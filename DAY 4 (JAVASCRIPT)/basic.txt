@@ -1,0 +1,3 @@
+ready() --> $(document).ready()
+onload() --> $(window).onload()
+load() --> $(document).load()

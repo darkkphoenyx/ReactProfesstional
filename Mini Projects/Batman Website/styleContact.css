@@ -14,7 +14,6 @@ body {
 .header {
   margin: 5px 5px 0px 5px;
   border-radius: 18px;
-  height: 60px;
   background-color: black;
   display: flex;
   align-items: center;
@@ -61,23 +60,44 @@ body {
   transform-origin: center;
 }
 
-.welcome-msg {
+.contact-msg {
   margin: 5px 5px 5px 5px;
-  padding: 50px 40px 50px 45px;
-  display: flex;
   border-radius: 10px;
-  height: 400px;
+  height: 500px;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-weight: bold;
-  color: white;
-  font-weight: bold;
-  background: url(./images/gothamcity2.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: rgba(255, 115, 0, 0.336);
+  backdrop-filter: blur(25px);
 }
 
-.welcome-msg p {
-  font-size: 40px;
-  color: yellow;
+.contact-msg .message1 h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+.contact-msg .message1 p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.452);
+  font-weight: bold;
+}
+.contact-msg .contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 50px;
+}
+
+h2{
+  color: rgba(0, 0, 0, 0.452);
+}
+.contact-msg .border{
+  z-index: 1;
+  width: 5px;
+  margin-left: 20px;
+  margin-right: 50px;
+  height: 150px;
+  background-color: black;
 }

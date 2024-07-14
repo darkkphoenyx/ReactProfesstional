@@ -1,13 +1,38 @@
 import "./App.css";
-import First from "./First";
+import TextInput from "./components/input/TextInput";
 
 function App() {
-
+  // function test(value) {
+  //   alert(value);
+  // }
   return (
     <>
-      <h1 className="bg-red-700 rounded-lg">Vite + React + BSc.CSIT</h1>
-      <div>
-      <First></First>
+      <div className="container grid bg-gray-500 mt-2 ml-auto mr-auto max-w-xs rounded-lg  border-2 border-gray-700">
+        {/* <TextInput placeholder="FullName" onchange={ (v) => test(v) }></TextInput> */}
+        <TextInput
+          type="text"
+          name="fullName"
+          placeholder="Full Name"
+          className="rounded-md m-1 border-1 border-red-600 "
+        ></TextInput>
+        <TextInput
+          type="text"
+          name="address"
+          placeholder="Address"
+          className="rounded-sm m-1 border-1 border-red-600 "
+        ></TextInput>
+        <TextInput
+          type="text"
+          name="email"
+          placeholder="Email"
+          className="rounded-sm m-1 border-1 border-red-600 "
+        ></TextInput>
+        <TextInput
+          type="password"
+          name="password"
+          placeholder="Password"
+          className="rounded-sm m-1 border-1 border-red-600 "
+        ></TextInput>
       </div>
     </>
   );
