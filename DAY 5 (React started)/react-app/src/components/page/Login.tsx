@@ -9,7 +9,7 @@ export default function Login() {
           <h1 className="text-center text-2xl font-bold ">
             Welcome to the Dark Side
             <div className="text-sm font-normal text-gray-100 mb-5">
-              Login to access your personal account
+              Login to access your personal account.
             </div>
           </h1>
           <LoginComponent
@@ -26,15 +26,15 @@ export default function Login() {
               className="ml-1 required checked:bg-white accent-white"
               type="checkbox"
             />
-            <label className="mr-2 ml-1" htmlFor="#">
+            <label className="mr-2 ml-1 text-white" htmlFor="#">
               Remember Me
             </label>
-            <a className="ml-16 underline" href="#">
+            <a className="ml-16 underline text-white" href="#">
               Forget Password?
             </a>
           </div>
           <div className="mt-4  flex items-center justify-center">
-            <button className="border hover:bg-white/30 font-bold text-xl  border-white p-2 px-10 rounded-xl ">
+            <button className="border  hover:bg-white/30 font-bold text-xl  border-white p-2 px-10 rounded-xl ">
               SUBMIT
             </button>
           </div>

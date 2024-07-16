@@ -36,13 +36,13 @@ export default function LoginComponent({
           >
             {show.showPassword == true ? (
               <img
-                className="text-white"
+                className="text-white fill-white"
                 src="./assets/eye-off.svg"
                 alt="eyeToggle"
               />
             ) : (
               <img
-                className="text-white"
+                className="text-white fill-white"
                 src="./assets/eye.svg"
                 alt="eyeToggle"
               />
