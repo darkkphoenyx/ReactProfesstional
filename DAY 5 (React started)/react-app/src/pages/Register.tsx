@@ -8,7 +8,7 @@ export default function Login() {
       <div className="grid h-full bg-[url(./assets/loginBackground.png)] bg-no-repeat bg-cover px-12 bg-center">
         <div className=" bg-white/15 border border-gray-300 rounded-xl p-8 mx-auto mt-32 h-fit backdrop-blur-md ">
           <h1 className="text-center text-5xl font-bold mb-6 text-[#fff]">
-            Login
+            Register Now
           </h1>
           <LoginComponent placeholder="Username"></LoginComponent>
           <LoginComponent
@@ -26,14 +26,14 @@ export default function Login() {
           </div>
           <div className="mt-5 flex items-center justify-center border border-[#D14F2B]/5 text-white hover:text-black  rounded-3xl bg-[#281F8C]/90 hover:bg-[#D759FB]/55 mx-1">
             <button className=" font-semibold hover:font-semibold text-xl p-2 px-10 rounded-xl ">
-              Login
+              Register
             </button>
           </div>
           <div className="flex items-center justify-center mt-6 font-normal">
-            <span>Don't have an account?</span>
-            <Link className="ml-2 underline text-white" to="/register">
-              Register
-            </Link>
+            <span>Already have an Account?</span>
+              <Link className="ml-2 underline text-white" to="/login">
+                Login
+              </Link>
           </div>
         </div>
       </div>
